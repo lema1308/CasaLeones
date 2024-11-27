@@ -1,0 +1,299 @@
+/* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+
+        /* Estilos para el horario */
+        .horario {
+            background-color: #f8f8f8;
+            padding: 20px;
+            margin: 20px auto;
+            border-radius: 8px;
+            max-width: 600px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .horario h2 {
+            text-align: center;
+            font-size: 24px;
+            margin-bottom: 15px;
+            color: #333;
+        }
+
+        .horario table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .horario table th,
+        .horario table td {
+            text-align: center;
+            padding: 10px;
+            font-size: 18px;
+        }
+
+        .horario table th {
+            background-color: #333;
+            color: white;
+        }
+
+        .horario table td {
+            background-color: #fff;
+            color: #333;
+            border: 1px solid #ccc;
+        }
+
+        /* Estilos para la sección de ubicación */
+        .ubicacion {
+            text-align: center;
+            padding: 20px;
+            background-color: #f4f4f4;
+            margin-top: 40px;
+        }
+
+        .ubicacion h2 {
+            font-size: 28px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .ubicacion p {
+            font-size: 18px;
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        .ubicacion iframe {
+            width: 100%;
+            max-width: 800px; /* Tamaño más grande */
+            height: 450px; /* Mejor altura para visualización */
+            margin-top: 20px;
+            border-radius: 10px; /* Bordes redondeados */
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+        }
+
+        .ubicacion a {
+            color: #000;
+            font-weight: bold;
+            text-decoration: none;
+            margin-top: 15px;
+            display: inline-block;
+            font-size: 16px;
+        }
+
+        .ubicacion a:hover {
+            text-decoration: underline;
+        }
+
+        /* Estilos para otras secciones */
+        h2 {
+            font-size: 24px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #000;
+            color: #fff;
+            font-size: 14px;
+        }
+
+        /* Encabezado */
+        header {
+            background-color: #000;
+            color: #fff;
+            padding: 10px 20px;
+        }
+
+        header .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        header .logo {
+            display: flex;
+            align-items: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        header .logo img {
+            width: 50px; /* Ajusta el tamaño del logo */
+            height: auto;
+            margin-left: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        /* Sección Hero */
+        .hero {
+            text-align: center;
+            padding: 50px 20px;
+            background-color: #333;
+            color: #fff;
+        }
+
+        .hero h2 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 18px;
+        }
+
+        /* Sección Galería */
+        .gallery {
+            padding: 20px;
+            text-align: center;
+            background-color: #fff;
+        }
+
+        .gallery .images {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .gallery .images img {
+            width: 200px; /* Imágenes más anchas */
+            height: auto;
+            border-radius: 15px; /* Bordes redondeados */
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Sombra para mayor profundidad */
+            transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transición suave para efectos */
+        }
+
+        .gallery .images img:hover {
+            transform: scale(1.05); /* Efecto de zoom al pasar el ratón */
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); /* Sombra más prominente */
+        }
+
+     /* Estilos para Agendar Cita */
+     .contact {
+         text-align: center;
+         padding: 50px 20px;
+         background-color: #fff;
+         border-top: 2px solid #f0f0f0;
+         box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+     }
+
+     .contact h2 {
+         font-size: 28px;
+         color: #333;
+         margin-bottom: 15px;
+         font-weight: bold;
+     }
+
+     .contact p.instructions {
+         font-size: 18px;
+         color: #555;
+         margin-bottom: 30px;
+     }
+
+     .contact .action-container {
+         margin-top: 20px;
+     }
+
+     .contact .action-button {
+         display: inline-block;
+         padding: 15px 30px;
+         font-size: 18px;
+         font-weight: bold;
+         color: #fff;
+         background-color: #333;
+         text-decoration: none;
+         border-radius: 30px;
+         transition: background-color 0.3s ease, transform 0.2s ease;
+     }
+
+     .contact .action-button:hover {
+         background-color: #444;
+         transform: scale(1.05);
+     }
+
+     /* Estilos para Redes Sociales */
+     .socials {
+         text-align: center;
+         padding: 50px 20px;
+         background-color: #f9f9f9;
+         border-top: 2px solid #f0f0f0;
+     }
+
+     .socials .section-title {
+         font-size: 28px;
+         color: #333;
+         margin-bottom: 15px;
+         font-weight: bold;
+     }
+
+     .socials p.instructions {
+         font-size: 18px;
+         color: #555;
+         margin-bottom: 30px;
+     }
+
+     .socials .social-icons {
+         display: flex;
+         justify-content: center;
+         gap: 30px;
+         flex-wrap: wrap;
+     }
+
+     .socials .social-icon {
+         display: inline-flex;
+         align-items: center;
+         justify-content: center;
+         gap: 8px;
+         padding: 12px 20px;
+         font-size: 18px;
+         color: #fff;
+         text-decoration: none;
+         border-radius: 30px;
+         transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+         font-weight: bold;
+         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+     }
+
+     .socials .social-icon:hover {
+         transform: scale(1.1);
+         box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+     }
+
+     /* Colores específicos para cada red social */
+     .socials .social-icon.facebook {
+         background-color: #3b5998;
+     }
+
+     .socials .social-icon.instagram {
+         background-color: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+     }
+
+     /* Adaptaciones para pantallas pequeñas */
+     @media (max-width: 600px) {
+         .socials .social-icons {
+             flex-direction: column;
+             gap: 20px;
+         }
+
+         .contact .action-button {
+             width: 80%;
+         }
+     }
